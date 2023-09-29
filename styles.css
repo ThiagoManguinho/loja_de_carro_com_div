@@ -1,0 +1,29 @@
+/* Estilizando o container para usar flexbox */
+.container {
+    height: 370px;
+    border-color: grey ;
+    border-style: solid;
+    border-width: 3px;
+    display: flex;
+    justify-content: space-between; /* Distribui as divs igualmente com espaçamento */
+}
+
+/* Estilizando as divs */
+.box {
+    background-color: li;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 350px;
+    border: 1px 10px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 10px;
+    margin: 15px; /* Adicione margens para espaçamento entre as divs */
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+p{
+    text-shadow: 1px 0px  1px
+}
